@@ -1,0 +1,26 @@
+.item a {
+    color: black
+}
+
+a.active .content .header{
+    color: #ae2012;
+    font-weight: bold;
+    /* text-shadow: #457b9d 1px 0 2px;  */
+}
+
+
+.paragraph span {
+    color: #6b705c;
+    font-weight: bold;
+}
+
+.content {
+    width: 90%;
+}
+
+.trim {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
